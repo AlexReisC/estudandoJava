@@ -30,7 +30,7 @@ public class NavigableSetTest01 {
 		
 		NavigableSet<Manga> mangas = new TreeSet<>(new MangaPrecoComparator());
 		mangas.add(new Manga(1L, "HunterxHunter", 19.99, 0));
-		mangas.add(new Manga(3L, "Attack on Titan", 20.90, 5));
+		mangas.add(new Manga(3L, "Attack on Titan", 20.9, 5));
 		mangas.add(new Manga(4L, "One Piece", 22.50, 0));
 		mangas.add(new Manga(2L, "One Punch Man", 21.50, 2));
 		mangas.add(new Manga(5L, "Daddy Issues", 19.0, 1));
